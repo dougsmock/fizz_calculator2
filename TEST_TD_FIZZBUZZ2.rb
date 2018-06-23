@@ -8,7 +8,7 @@ class TestCalculator2 < Minitest::Test
    end
 
   def test_assert_that_a_is_a_float
-    assert_equal(a, 5)
+    assert_equal(a.to_s, 5.0)
   end
 
 end
