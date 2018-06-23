@@ -7,8 +7,8 @@ class TestCalculator2 < Minitest::Test
     assert_equal(1, 1)
    end
 
-  def test_assert_a_plus_b_is_25
-    assert_equal(a + b, 25.0)
+  def test_does_number_equal_25
+    assert_equal(number, 25)
   end
 
 end
