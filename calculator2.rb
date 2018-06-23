@@ -1,10 +1,13 @@
 
 
 def plus(a, b)
-
+  returns a + b
 end
 
-# plus(5.0, 20.0)
+number = plus(5, 20)
+
+
+
 
 
 
